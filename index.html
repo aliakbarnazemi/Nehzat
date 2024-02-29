@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
   <link rel="stylesheet" href="assets/css/bootstrap-grid.rtl.css" />
   <link rel="stylesheet" href="assets/css/master.css" />
-  <link rel="stylesheet" href="assets/css/font.css" />
 </head>
 
 <body>
@@ -223,80 +222,17 @@
   </main>
   <!-- Header -->
   <div class="header-sticky-main"></div>
-  <header class="container header">
+  <header class="container-custom container header">
     <div class="row p-0 g-0">
       <div class="col-12">
-        <div class="layer-1" id="layer-1"></div>
+        <div class="layer-1 container-fluid" id="layer-1"></div>
         <div class="layer-2"></div>
         <div class="layer-3"></div>
-        <div class="nav-sticky container">
-          <div class="logo-section-header-sticky">
-            <a href="">
-              <img src="assets/images/logo_fix.png" alt="">
-            </a>
-          </div>
-          <div class="navbar-desktop">
-            <nav class="navbar">
-              <ul class="nav-items">
-                <li>
-                  <a href="#">صفحه نخست</a>
-                </li>
-                <div class="line-menu"></div>
-                <li class="dropdown">
-                  <a href="#" class="dropbtn">
-                    <p>
-                      سرویس های خبری
-                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
-                        class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                      </svg>
-                    </p>
-                  </a>
-                  <div class="dropdown-content">
-                    <div class="dd-content"></div>
-                    <div class="dd-content-main">
-                      <a href="#">آیتم ها</a>
-                      <a href="#">آیتم ها</a>
-                      <a href="#">آیتم ها</a>
-                    </div>
-                  </div>
-                </li>
-                <div class="line-menu"></div>
-                <li>
-                  <a href="#">چند رسانه ای</a>
-                </li>
-                <div class="line-menu"></div>
-                <li>
-                  <a href="#">خدمات الکترونیکی</a>
-                </li>
-                <div class="line-menu"></div>
-                <li>
-                  <a href="#">معرفی سازمان</a>
-                </li>
-                <div class="line-menu"></div>
-                <li>
-                  <a href="#">تماس با ما</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="col-2 quick-navbar">
-            <a class="quick-access d-flex">
-                <img src="assets/images/menu.svg" alt="" />
-            </a>
-            <a class="search-icon">
-              <img src="assets/images/search.svg" alt="" />
-            </a>
-            <a href="#" class="user-icon">
-              <img src="assets/images/user.svg" alt="" />
-            </a>
-          </div>
-        </div>
-        <div class="d-flex nav-item">
+        <div class="d-flex nav-item container-custom container">
           <div class="logo-section-header">
             <a href="">
               <img src="assets/images/logo.png" class="logo" alt="" />
+              <img src="assets/images/logo_fix.png" class="logo-sticky d-none" alt="">
             </a>
           </div>
           <div class="navbar-desktop">
@@ -347,8 +283,8 @@
           </div>
           <div class="col-2 quick-navbar">
             <a class="quick-access d-flex">
-              <span class="mt-3 px-2 quick-access-p">دسترسی سریع</>
-                <img src="assets/images/menu.svg" class="pt-1" alt="" />
+              <span class="mt-3 px-2 quick-access-p">دسترسی سریع</span>
+              <img src="assets/images/menu.svg" class="pt-1" alt="" />
             </a>
             <a class="search-icon">
               <img src="assets/images/search.svg" alt="" />
@@ -365,7 +301,7 @@
 
   <!-- Slider -->
   <section class="slider">
-    <div class="container container-slider container-2"></div>
+    <div class="container-slider container container-2"></div>
     <div class="container" id="slider1">
       <div class="row g-0">
         <div class="col-lg-7 col-md-7 col-sm-12 margin-top-slider">
@@ -429,92 +365,101 @@
             <div class="col-7" style="height: 10px"></div>
           </div>
           <div class="card-slider-1">
-            <img src="assets/images/Old-Man.png" class="pt-3 card-slider-1-img" alt="" />
-
-            <div class="card-slider-1-content" style="width: 100%; margin: 0px auto">
-              <p class="card-slider-2-text">
-                خواهرانه های عاشورایی مدافعین حرم - ۲
-              </p>
-              <a class="card-slider-3-title nashr-khoobiha-title">
-                <span></span>
-                <p>سند صیانت از کودکان در فضای مجازی در صف تصویب</p>
-              </a>
-              <div class="nashr-khoobiha-info nashr-khoobiha-info-desktop">
-                <div class="row">
-                  <div class="col-8">
-                    <div class="a-1">
-                      <div class="row" style="
-                            margin-top: 30px;
-                            display: flex;
-                            flex-direction: row;
-                          ">
-                        <div class="col-4">
-                          <span class="nashr-khoobiha-info-span">۱۷۶۸۷</span>
-                          <p class="nashr-khoobiha-info-title">تعداد اعضاء</p>
-                        </div>
-                        <div class="col-4">
-                          <span class="nashr-khoobiha-info-span">۳۶۶۸۷</span>
-                          <p class="nashr-khoobiha-info-title">
-                            تعداد آثار رسیده
-                          </p>
-                        </div>
-                        <div class="col-4">
-                          <span class="nashr-khoobiha-info-span">۲۵۸۴۵۶۳</span>
-                          <p class="nashr-khoobiha-info-title">تعداد آراء</p>
+            <div class="img-fluid pt-3">
+              <div class="div-2 image-main">
+                <img src="assets/images/download.jpeg" alt="">
+                <div class="bdrs-img"></div>
+              </div>
+              <div id="polo" class="image-main">
+                <div id="myDiv" class="image-main"></div>
+                <div class="down">
+                </div>
+              </div>
+              <div class="card-slider-1-content">
+                <p class="card-slider-2-text">
+                  خواهرانه های عاشورایی مدافعین حرم - ۲
+                </p>
+                <a class="card-slider-3-title nashr-khoobiha-title">
+                  <span></span>
+                  <p>سند صیانت از کودکان در فضای مجازی در صف تصویب</p>
+                </a>
+                <div class="nashr-khoobiha-info nashr-khoobiha-info-desktop">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="a-1">
+                        <div class="row" style="
+                              margin-top: 30px;
+                              display: flex;
+                              flex-direction: row;
+                            ">
+                          <div class="col-4">
+                            <span class="nashr-khoobiha-info-span">۱۷۶۸۷</span>
+                            <p class="nashr-khoobiha-info-title">تعداد اعضاء</p>
+                          </div>
+                          <div class="col-4">
+                            <span class="nashr-khoobiha-info-span">۳۶۶۸۷</span>
+                            <p class="nashr-khoobiha-info-title">
+                              تعداد آثار رسیده
+                            </p>
+                          </div>
+                          <div class="col-4">
+                            <span class="nashr-khoobiha-info-span">۲۵۸۴۵۶۳</span>
+                            <p class="nashr-khoobiha-info-title">تعداد آراء</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="a-2" dir="ltr">
-                      <div class="nashr-khoobiha-info-link">
-                        <a class="nashr-khoobiha-info-link-span">
-                          ورود به نشر خوبی ها
-                        </a>
+                    <div class="col-4">
+                      <div class="a-2" dir="ltr">
+                        <div class="nashr-khoobiha-info-link">
+                          <a class="nashr-khoobiha-info-link-span">
+                            ورود به نشر خوبی ها
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="nashr-khoobiha-info mobile">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="a-1">
-                      <div class="row" style="
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            margin-top: 35px;
-                          ">
-                        <div class="col-4">
-                          <span class="nashr-khoobiha-info-span">۱۷۶۸۷</span>
-                          <p class="nashr-khoobiha-info-title-2">
-                            تعداد اعضاء
-                          </p>
-                        </div>
-                        <div class="col-4">
-                          <span class="nashr-khoobiha-info-span">۳۶۶۸۷</span>
-                          <p class="nashr-khoobiha-info-title-2">
-                            تعداد آثار رسیده
-                          </p>
-                        </div>
-                        <div class="col-4">
-                          <span class="nashr-khoobiha-info-span">222222</span>
-                          <p class="nashr-khoobiha-info-title-2">
-                            تعداد آراء
-                          </p>
+                <div class="nashr-khoobiha-info mobile">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="a-1">
+                        <div class="row" style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              margin-top: 35px;
+                            ">
+                          <div class="col-4">
+                            <span class="nashr-khoobiha-info-span">۱۷۶۸۷</span>
+                            <p class="nashr-khoobiha-info-title-2">
+                              تعداد اعضاء
+                            </p>
+                          </div>
+                          <div class="col-4">
+                            <span class="nashr-khoobiha-info-span">۳۶۶۸۷</span>
+                            <p class="nashr-khoobiha-info-title-2">
+                              تعداد آثار رسیده
+                            </p>
+                          </div>
+                          <div class="col-4">
+                            <span class="nashr-khoobiha-info-span">222222</span>
+                            <p class="nashr-khoobiha-info-title-2">
+                              تعداد آراء
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="a-2" dir="ltr">
-                      <div style="height: 25px"></div>
-                      <div class="nashr-khoobiha-info-link-2">
-                        <a class="nashr-khoobiha-info-link-span">
-                          ورود به نشر خوبی ها
-                        </a>
+                    <div class="col-12">
+                      <div class="a-2" dir="ltr">
+                        <div style="height: 25px"></div>
+                        <div class="nashr-khoobiha-info-link-2">
+                          <a class="nashr-khoobiha-info-link-span">
+                            ورود به نشر خوبی ها
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -530,8 +475,8 @@
 
   <!-- Sections -->
   <div class="section mt-lg-3 mt-md-1">
-    <div class="container container-slider container-2"></div>
-    <section class="container">
+    <div class="container-slider container"></div>
+    <section class="container container-custom">
       <div class="row g-0 p-0" id="section">
         <div class="col-lg-7 col-md-7 col-sm-12 col-12">
           <div class="favourite-news">
@@ -846,50 +791,62 @@
               </div>
             </div>
             <div class="hashtag-content">
-              <img src="assets/images/img/hashtag.png" class="hashtag-img" alt="" />
-              <p class="card-slider-1-text px-3 p-0 hashtag-text-1" style="font-size: 13px; height: 3px">
-                خواهرانه های عاشورایی مدافعین حرم - ۲
-              </p>
-              <a class="card-slider-1-title pt-2 hashtag-title-1" style="font-weight: bold">
-                <span style="display: inline-block"></span>
-                نقش امام خمینی (ره) در چینش نوین منطقه غرب آسیا بر اساس معادله
-                جدید/اولویت بخشی به فلسطین
-              </a>
-              <div class="d-flex pt-2 px-1" style="font-size: 14px; flex-direction: row; color: black">
-                <img src="assets/images/social-media/instagram.png" class="px-2 pt-2 hashtag-insta"
-                  style="width: 40px; height: 40px" alt="" />
-                <p class="card-slider-1-text-3 d-flex hashtag-insta-title" style="font-size: 14px; color: black">
-                  ۱۶۱ فوتی کرونا در شبانه روز گذشته/شناسایی ۱۱۶۲۰ بیمار جدید
+              <div class="img-fluid pt-4">
+                <div class="div-2 image-main">
+                  <img src="assets/images/download.jpeg" alt="">
+                  <div class="bdrs-img"></div>
+                </div>
+                <div id="polo" class="image-main">
+                  <div id="myDiv" class="image-main"></div>
+                  <div class="down">
+                  </div>
+                </div>
+                <p class="card-slider-1-text px-3 p-0 hashtag-text-1" style="font-size: 13px; height: 3px">
+                  خواهرانه های عاشورایی مدافعین حرم - ۲
                 </p>
-              </div>
-              <div class="d-flex px-1" style="
-                    font-size: 14px;
-                    flex-direction: row;
-                    color: black;
-                    height: 35px;
-                  ">
-                <img src="assets/images/social-media/face-book.png" class="px-3 pt-2 hashtag-face-book"
-                  style="height: 35px" alt="" />
-                <p class="card-slider-1-text-3 d-flex hashtag-face-book-title" style="font-size: 14px; color: black">
-                  جشنواره جهانی فیلم برگزیدگانش را شناخت/ دو جایزه برای «میجر»
-                </p>
-              </div>
-              <div style="height: 5px"></div>
-              <div class="d-flex px-1 pt-lg-2 pt-0" style="
-                    font-size: 14px;
-                    flex-direction: row;
-                    color: black;
-                    height: 30px;
-                  ">
-                <img src="assets/images/social-media/twitter.png" class="px-3 hashtag-twitter" style="height: 25px"
-                  alt="" />
-                <p class="card-slider-1-text-3 d-flex hashtag-twitter-title" style="font-size: 14px; color: black">
-                  زمان برگزاری مناظره های انتخاباتی تغییر کرد/اولین مناظره ۱۵
-                  خرداد
-                </p>
+                <a class="card-slider-1-title pt-2 hashtag-title-1" style="font-weight: bold">
+                  <span style="display: inline-block"></span>
+                  نقش امام خمینی (ره) در چینش نوین منطقه غرب آسیا بر اساس معادله
+                  جدید/اولویت بخشی به فلسطین
+                </a>
+                <div class="d-flex pt-2 px-1 hashtag-title-main-2"
+                  style="font-size: 14px; flex-direction: row; color: black">
+                  <img src="assets/images/social-media/instagram.png" class="px-2 pt-2 hashtag-insta"
+                    style="width: 40px; height: 40px" alt="" />
+                  <p class="card-slider-1-text-3 d-flex hashtag-insta-title hashtag-title-2">
+                    ۱۶۱ فوتی کرونا در شبانه روز گذشته/شناسایی ۱۱۶۲۰ بیمار جدید
+                  </p>
+                </div>
+                <div class="hashtag-between"></div>
+                <div class="d-flex px-1 face-book hashtag-title-main-2" style="
+                      font-size: 14px;
+                      flex-direction: row;
+                      color: black;
+                      height: 35px;
+                    ">
+                  <img src="assets/images/social-media/face-book.png" class="px-3 pt-2 hashtag-face-book"
+                    style="height: 35px" alt="" />
+                  <p class="card-slider-1-text-3 d-flex hashtag-face-book-title hashtag-title-2">
+                    جشنواره جهانی فیلم برگزیدگانش را شناخت/ دو جایزه برای «میجر»
+                  </p>
+                </div>
+                <div class="hashtag-between"></div>
+                <div class="d-flex px-1 pt-lg-2 pt-0 hashtag-title-main-2" style="
+                      font-size: 14px;
+                      flex-direction: row;
+                      color: black;
+                      height: 30px;
+                    ">
+                  <img src="assets/images/social-media/twitter.png" class="px-3 hashtag-twitter" style="height: 25px"
+                    alt="" />
+                  <p class="card-slider-1-text-3 d-flex hashtag-twitter-title hashtag-title-2">
+                    زمان برگزاری مناظره های انتخاباتی تغییر کرد/اولین مناظره ۱۵
+                    خرداد
+                  </p>
+                </div>
               </div>
             </div>
-            <div style="height: 18px" class="end-hashtag"></div>
+            <div class="end-hashtag"></div>
           </div>
           <div class="org-4">
             <div class="favourite-news-top">
@@ -968,7 +925,7 @@
 
   <!-- Video -->
   <section class="videos" style="position: relative">
-    <div class="container container-3"></div>
+    <div class="container container-custom container-3"></div>
     <div class="container">
       <div style="height: 22px;"></div>
       <div class="video-top">
@@ -1104,7 +1061,7 @@
             <div class="d-flex">
               <img src="assets/images/aye.svg" alt="" class="tab-logo" />
               <div class="tab-title-menu d-flex">
-                <button class="tab-btn selected" onclick="switchTab(0)" style="margin-right: 2.5px">
+                <button class="tab-btn selected" onclick="switchTab(0)" style="">
                   <p>آسمانه</p>
                 </button>
                 <button class="tab-btn" onclick="switchTab(1)">
@@ -1174,42 +1131,46 @@
         </div>
 
         <div class="tab-content" id="tab3">
-          <div class="row">
-            <div class="col-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam tenetur nemo eius quos a blanditiis
+            numquam mollitia nisi atque. Iure atque, iusto aperiam possimus nostrum corporis optio? At, optio.
+          </p>
+          <!-- <div class="d-flex">
+            <div class="w-50">
               <img src="assets/images/tab/sardar.png" alt="" />
               <p class="tab-title-content-1">
                 گزارش روزنامه ایتالیایی از علاقه تیم مورینیو به جذب آزمون
               </p>
             </div>
-            <div class="col-6">
+            <div class="w-50">
               <div class="row">
                 <div class="col-6 nav-item-1 mt-2">
-                  <img src="assets/images/tab/tab-item.png" alt="" />
+                  <img src="assets/images/tab/tab-item.png" class="w-100" alt="" />
                   <p class="tab-title-content-2">
                     نگرانی از زوال اخلاق و لطمه به حیثیت نظام در مناظره ها
                   </p>
                 </div>
                 <div class="col-6 nav-item-1 mt-2">
-                  <img src="assets/images/tab/tab-item.png" alt="" />
+                  <img src="assets/images/tab/tab-item.png" class="w-100" alt="" />
                   <p class="tab-title-content-2">
                     سازوکار شیکه های اختصاصی نامزدهای انتخابات
                   </p>
                 </div>
                 <div class="col-6 nav-item-2">
-                  <img src="assets/images/tab/tab-item.png" alt="" />
+                  <img src="assets/images/tab/tab-item.png" class="w-100" alt="" />
                   <p class="tab-title-content-2">
                     صنعت برق پشت فعالیت های صنعتی - تولیدی را خالی نکند
                   </p>
                 </div>
                 <div class="col-6 nav-item-2">
-                  <img src="assets/images/tab/tab-item.png" alt="" />
+                  <img src="assets/images/tab/tab-item.png" class="w-100" alt="" />
                   <p class="tab-title-content-2">
                     ناتوانی زنگنه در تحقق برنامه تولید نفت
                   </p>
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="tab-content" id="tab4">
@@ -1676,105 +1637,105 @@
                     </path>
                   </g>
                   <g class="text">
-                    <a class="cities" id="4">
+                    <a class="cities-title" id="4">
                       <text transform="" y="92" x="196">آذربایجان شرقی</text>
                     </a>
-                    <a class="cities" id="5">
+                    <a class="cities-title" id="5">
                       <text transform="rotate(61 59,49)" y="92" x="196">
                         اذربایجان غربی
                       </text>
                     </a>
-                    <a class="cities" id="6">
+                    <a class="cities-title" id="6">
                       <text transform="" y="132" x="239">اردبیل</text>
                     </a>
-                    <a class="cities" id="7">
+                    <a class="cities-title" id="7">
                       <text transform="" y="391" x="449">اصفهان</text>
                     </a>
-                    <a class="cities" id="8">
+                    <a class="cities-title" id="8">
                       <text transform="" y="249" x="350">البرز</text>
                     </a>
-                    <a class="cities" id="9">
+                    <a class="cities-title" id="9">
                       <text transform="" y="411" x="144">ایلام</text>
                     </a>
-                    <a class="cities" id="10">
+                    <a class="cities-title" id="10">
                       <text transform="" y="674" x="387">بوشهر</text>
                     </a>
-                    <a class="cities" id="11">
+                    <a class="cities-title" id="11">
                       <text transform="" y="275" x="387">تهران</text>
                     </a>
-                    <a class="cities" id="12">
+                    <a class="cities-title" id="12">
                       <text transform="" y="477" x="406">
                         چهار محال و بختیاری
                       </text>
                     </a>
-                    <a class="cities" id="13">
+                    <a class="cities-title" id="13">
                       <text transform="" y="444" x="820">خراسان جنوبی</text>
                     </a>
-                    <a class="cities" id="14">
+                    <a class="cities-title" id="14">
                       <text transform="" y="268" x="790">خراسان رضوی</text>
                     </a>
-                    <a class="cities" id="15">
+                    <a class="cities-title" id="15">
                       <text transform="" y="165" x="700">خراسان شمالی</text>
                     </a>
-                    <a class="cities" id="16">
+                    <a class="cities-title" id="16">
                       <text transform="" y="510" x="270">خوزستان</text>
                     </a>
-                    <a class="cities" id="17">
+                    <a class="cities-title" id="17">
                       <text transform="" y="210" x="240">زنجان</text>
                     </a>
-                    <a class="cities" id="18">
+                    <a class="cities-title" id="18">
                       <text transform="" y="277" x="567">سمنان</text>
                     </a>
-                    <a class="cities" id="19">
+                    <a class="cities-title" id="19">
                       <text transform="" y="735" x="933">
                         سیستان و بلوچستان
                       </text>
                     </a>
-                    <a class="cities" id="20">
+                    <a class="cities-title" id="20">
                       <text transform="" y="623" x="449">فارس</text>
                     </a>
-                    <a class="cities" id="21">
+                    <a class="cities-title" id="21">
                       <text transform="" y="230" x="310">قزوین</text>
                     </a>
-                    <a class="cities" id="22">
+                    <a class="cities-title" id="22">
                       <text transform="" y="326" x="340">قم</text>
                     </a>
-                    <a class="cities" id="23">
+                    <a class="cities-title" id="23">
                       <text transform="" y="255" x="193">کردستان</text>
                     </a>
-                    <a class="cities" id="24">
+                    <a class="cities-title" id="24">
                       <text transform="" y="600" x="642">کرمان</text>
                     </a>
-                    <a class="cities" id="25">
+                    <a class="cities-title" id="25">
                       <text transform="" y="330" x="161">کرمانشاه</text>
                     </a>
-                    <a class="cities" id="26">
+                    <a class="cities-title" id="26">
                       <text transform="" y="550" x="406">
                         کهگیلویه و بویراحمد
                       </text>
                     </a>
-                    <a class="cities" id="27">
+                    <a class="cities-title" id="27">
                       <text transform="" y="182" x="567">گلستان</text>
                     </a>
-                    <a class="cities" id="28">
+                    <a class="cities-title" id="28">
                       <text transform="" y="174" x="296">گیلان</text>
                     </a>
-                    <a class="cities" id="29">
+                    <a class="cities-title" id="29">
                       <text transform="" y="395" x="261">لرستان</text>
                     </a>
-                    <a class="cities" id="30">
+                    <a class="cities-title" id="30">
                       <text transform="" y="230" x="439">مازندران</text>
                     </a>
-                    <a class="cities" id="31">
+                    <a class="cities-title" id="31">
                       <text transform="" y="337" x="293">مرکزی</text>
                     </a>
-                    <a class="cities" id="32">
+                    <a class="cities-title" id="32">
                       <text transform="" y="735" x="642">هرمزگان</text>
                     </a>
-                    <a class="cities" id="33">
+                    <a class="cities-title" id="33">
                       <text transform="" y="293" x="261">همدان</text>
                     </a>
-                    <a class="cities" id="34">
+                    <a class="cities-title" id="34">
                       <text transform="" y="450" x="600">یزد</text>
                     </a>
                   </g>
@@ -1785,10 +1746,10 @@
               <div class="city-content-list">
                 <div class="city-content-list-item">
                   <div class="row">
-                    <div class="col-6 col-sm-6 col-lg-4 col-md-3">
+                    <div class="col-6 col-sm-6 col-lg-4 col-md-3 col-xl-3">
                       <img src="assets/images/img/test-img11.png" alt="" class="city-content-list-img" />
                     </div>
-                    <div class="col-6 col-sm-6 col-lg-8 col-md-9">
+                    <div class="col-6 col-sm-6 col-lg-8 col-md-9 col-xl-9">
                       <p class="city-content-list-span">
                         گزارشی از یک جشن شیرین
                       </p>
@@ -1807,10 +1768,10 @@
                 <hr />
                 <div class="city-content-list-item city-content-list-item-2">
                   <div class="row">
-                    <div class="col-6 col-sm-4 col-lg-4 col-md-3">
+                    <div class="col-6 col-sm-4 col-lg-4 col-md-3 col-xl-3">
                       <img src="assets/images/img/test-img11.png" alt="" class="city-content-list-img2" />
                     </div>
-                    <div class="col-6 col-sm-8 col-lg-8 col-md-9">
+                    <div class="col-6 col-sm-8 col-lg-8 col-md-9 col-xl-9">
                       <p class="city-content-list-span-2">
                         به مناسبت انتخاب ریاست جمهوری ۱۴۰۰
                       </p>
@@ -1829,10 +1790,10 @@
                 <hr />
                 <div class="city-content-list-item city-content-list-item-3">
                   <div class="row">
-                    <div class="col-6 col-sm-6 col-lg-4 col-md-3">
+                    <div class="col-6 col-sm-6 col-lg-4 col-md-3 col-xl-3">
                       <img src="assets/images/img/test-img11.png" alt="" class="city-content-list-img3" />
                     </div>
-                    <div class="col-6 col-sm-6 col-lg-8 col-md-9">
+                    <div class="col-6 col-sm-6 col-lg-8 col-md-9 col-xl-9">
                       <p class="city-content-list-span-3">
                         رییس سازمان تبلیغات اسلامی
                       </p>
@@ -2049,7 +2010,7 @@
 
   <!-- Footer -->
   <footer class="container-fluid footer">
-    <div class="footer-mobile">
+    <div class="footer-mobile d-none">
       <p class="footer-mobile-text">
         کلیه حقوق ایت سایت متعلق به سازمان تبلیغات اسلامی می باشد و استفاده از مطالب با ذکر نام سازمان تبلیغات اسلامی
         آزاد است .
@@ -2058,12 +2019,12 @@
         طراحی و تولید "ایران سامانه"
       </p>
     </div>
-    <div class="footer-items">
+    <div class="footer-items container">
       <div class="down-footer-logo">
         <img src="assets/images/down-footer.png" alt="">
       </div>
-      <div class="d-flex">
-        <div class="footer-item">
+      <div class="container-custom d-flex">
+        <div class="footer-item container-custom">
           <div class="footer-title">
             <a href="">سازمان تبلیغات اسلامی</a>
           </div>

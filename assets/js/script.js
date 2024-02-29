@@ -238,35 +238,43 @@ function tehran() {
 }
 // End City
 
-// Start Sticky Menu
-let $scrollTop = document.documentElement.scrollTop;
+// // Start Sticky Menu
 let $header = document.querySelector('.header');
-let show = document.querySelector('.scroll');
 let layer2 = document.querySelector('.layer-2');
 let layer3 = document.querySelector('.layer-3');
 let layer1 = document.querySelector('.layer-1');
 let navItems = document.querySelector('.nav-item');
 let navSticky = document.querySelector('.nav-sticky');
 let header2 = document.querySelector('.header-sticky-main');
+let $headerLogo = document.querySelector('.logo-section-header');
+let $headerLogoImg = document.querySelector('.logo');
+let $headerLogoSticky = document.querySelector('.logo-sticky');
+let $quickAccessP = document.querySelector('.quick-access-p');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY >= 80) {
+  if (window.scrollY >= 60) {
     header2.style.height = '120px';
     $header.style.position = 'fixed';
     $header.classList.remove('container');
+    $header.classList.remove('container-custom');
+    $header.classList.add('container-fluid');
     $header.classList.add('header-sticky');
     layer2.classList.add('layer-2-sticky');
-    layer1.classList.remove('layer-1');
     layer2.classList.remove('layer-2');
     layer3.classList.remove('layer-3');
     layer3.classList.add('layer-3-sticky');
     layer1.classList.add('layer-1-sticky');
-    navItems.classList.add('d-none');
-    navSticky.classList.remove('d-none');
-    show.classList.add('d-flex');
+    layer1.classList.remove('layer-1');
+    navItems.classList.remove('nav-item');
+    navItems.classList.add('nav-sticky');
+    $headerLogo.classList.add('logo-section-header-sticky');
+    $headerLogo.classList.remove('logo-section-header');
+    $headerLogoSticky.classList.remove('d-none');
+    $headerLogoImg.classList.add('d-none');
+    $quickAccessP.classList.add('d-none');
   }
-  
-  if(window.scrollY <= 60){
+
+  if (window.scrollY <= 60) {
     header2.style.height = '0px';
     $header.style.position = 'sticky';
     $header.classList.add('container');
@@ -277,9 +285,13 @@ window.addEventListener('scroll', () => {
     layer3.classList.add('layer-3');
     layer3.classList.remove('layer-3-sticky');
     layer1.classList.remove('layer-1-sticky');
-    navItems.classList.remove('d-none');
-    navSticky.classList.remove('d-flex');
-    navSticky.classList.add('d-none');
+    navItems.classList.remove('nav-sticky');
+    navItems.classList.add('nav-item');
+    $headerLogo.classList.remove('logo-section-header-sticky');
+    $headerLogo.classList.add('logo-section-header');
+    $headerLogoSticky.classList.add('d-none');
+    $headerLogoImg.classList.remove('d-none');
+    $quickAccessP.classList.remove('d-none');
   }
 })
-// End Stick Menu
+// // End Stick Menu
